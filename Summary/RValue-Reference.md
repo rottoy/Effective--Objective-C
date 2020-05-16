@@ -10,7 +10,6 @@ RValue : Temporary
 
 우측값과 좌측값을 판단하는 예시이다.
 
-<br/>
 ```cpp
 int main()
 {
