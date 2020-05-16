@@ -16,14 +16,13 @@
 <br/>
 - new는 자동으로 생성자를 호출해줌
 - malloc은 후에 realloc으로 바로 메모리 재할당이 가능하지만, new는 메모리 해제후 다시 할당을 해야 함.
-
+<br/><br/>
 ```cpp
 int* ptr = (int*)malloc(sizeof(int)*4);
 
 (int*) : 형변환
 
 sizeof(int)*4 : 할당할 메모리 크기
-<br/><br/>
 int* ptr = new int;
 int* arr = new int[3];   // 길이3인 int형배열 할당
 
